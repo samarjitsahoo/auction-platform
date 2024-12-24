@@ -102,7 +102,7 @@ const Home = () => {
           <h3 className="text-[#111] text-xl font-semibold mb-2 min-[480px]:text-xl md:text-2xl lg:text-3xl">
             How it works
           </h3>
-          <div className="flex flex-col gap-4 md:flex-row md:flex-wrap w-full">
+          <div className="flex flex-col gap-4 md:flex-row md:flex-wrap w-full justify-evenly">
             {howItWorks.map((element) => {
               return (
                 <div

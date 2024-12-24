@@ -105,8 +105,8 @@ export const Drawer = ({ setOpenDrawer, openDrawer }) => {
             <p className="text-stone-600">
               You can update payment status and amount.
             </p>
-            <form className="flex flex-col gap-5 my-5">
-              <div className="flex flex-col gap-3">
+            <form className="flex flex-col gap-1">
+              <div className="flex flex-col">
                 <label className="text-[16px] text-stone-600 ">User ID</label>
                 <input
                   type="text"
