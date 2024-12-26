@@ -51,8 +51,9 @@ const Card = ({ imgSrc, title, startingBid, startTime, endTime, id }) => {
         <img
           src={imgSrc}
           alt={title}
-          className="w-full aspect-[4/3] m-auto md:p-12"
+          className="w-full aspect-[4/3] m-auto p-10"
         />
+
         <div className="px-2 pt-4 pb-2">
           <h5 className="font-semibold text-[18px] group-hover:text-[#2e2f9c] mb-2">
             {title}

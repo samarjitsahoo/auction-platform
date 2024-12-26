@@ -14,7 +14,7 @@ const FeaturedAuctions = () => {
         {loading ? (
           <div className="flex justify-center items-center h-48">
             <svg
-              className="animate-spin h-8 w-8 text-[#4749e9]"
+              className="animate-spin h-16 w-16 text-[#4749e9]"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -36,7 +36,7 @@ const FeaturedAuctions = () => {
           </div>
         ) : (
           <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-            {allAuctions.slice(0, 8).map((element) => {
+            {allAuctions.slice(0, 16).map((element) => {
               return (
                 <Card
                   title={element.title}

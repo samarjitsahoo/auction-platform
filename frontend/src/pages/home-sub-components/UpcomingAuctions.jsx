@@ -33,6 +33,7 @@ const UpcomingAuctions = () => {
                 <h3 className="text-[#232323] text-xl font-semibold mb-2 min-[480px]:text-xl md:text-2xl lg:text-3xl">
                   Today
                 </h3>
+                <h5>Auctions scheduled to start today are displayed here.</h5>
               </div>
             </div>
           </div>
