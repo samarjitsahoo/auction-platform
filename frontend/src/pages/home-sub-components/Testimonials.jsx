@@ -31,8 +31,8 @@ const Testimonials = () => {
       style={{ backgroundColor: "rgba(246, 244, 240, 1)" }}
       className="text-white py-12"
     >
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-black mb-6">
+      <div className="max-w-6xl mx-auto">
+        <h2 className=" text-black text-xl font-semibold mb-2 min-[480px]:text-xl md:text-2xl lg:text-3xl">
           Our <span className="text-[#4749e9]">Testimonials</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-8">

@@ -7,7 +7,7 @@ const Footer = () => {
       style={{ backgroundColor: "rgba(246, 244, 240, 1)" }}
       className="text-black py-8"
     >
-      <div className="max-w-6xl mx-auto flex flex-wrap justify-between">
+      <div className="max-w-6xl mx-auto flex flex-wrap justify-between border-t border-gray-700 pt-4">
         {/* About Section */}
         <div className="w-full md:w-1/3 mb-6">
           <h3 className="text-lg font-semibold text-[#4749e9] mb-4">
@@ -89,7 +89,9 @@ const Footer = () => {
             href="https://samarjit.vercel.app"
             target="_blank"
             className="hover:text-[#4749e9]"
-          >Samarjit</a>
+          >
+            Samarjit
+          </a>
         </p>
       </div>
     </footer>
